@@ -1,0 +1,144 @@
+#container {
+    background: #000000;
+    color: white;
+}
+
+/* CSS for things related to the sidebar*/
+    #sideBar {
+        position: fixed;
+        right: 2.5vw;
+        top: 25vh;
+        width: 15vw;
+
+
+        border: solid rgba(225, 15, 33, 0.80) 3px;
+        /*border-top: solid rgba(225, 15, 33, 0.80) 3px;*/
+        /*border-left: solid rgba(225, 15, 33, 0.80) 3px;*/
+        /*border-bottom: solid rgba(225, 15, 33, 0.80) 3px;*/
+        outline: solid rgba(20, 20, 20, 0.80) 6px;
+
+        -webkit-box-shadow: -10px 0px 120px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -10px 0px 120px 0px rgba(0,0,0,0.75);
+        box-shadow: -10px 0px 120px 0px rgba(0,0,0,0.75);
+    }
+    #sideBarLogo {
+        position: relative;
+        margin-top: -100%;
+        margin-left: -15%;
+        max-height: 125%;
+        max-width: 125%;
+        z-index: 1000;
+    }
+    ul {
+        margin: 0;
+        padding: 2.5vw;
+        list-style: none;
+        background-color: rgba(20, 20, 20, 0.85);
+        text-align: center;
+        outline: solid #C3061A 3px;
+        outline-offset: 9px;
+    }
+    ul > li > a {
+        color: white;
+        text-decoration: none;
+        font-size: 2.5vw;
+    }
+    ul > li > a:hover { color: #cacaca; }
+
+/* ---- Sidebar End ---- */
+
+/* Rules for all divs containing some kind of content */
+    #meny, #restaurang, #bilder, #kontakt {
+        background: no-repeat center;
+        background-size: cover;
+        margin: auto;
+        min-height: 475px;
+        padding: 75px 20vw 75px 15vw;
+        -webkit-box-shadow: inset 0px 0px 75px 15px rgba(0,0,0,0.8);
+        -moz-box-shadow: inset 0px 0px 75px 15px rgba(0,0,0,0.8);
+        box-shadow: inset 0px 0px 75px 15px rgba(0,0,0,0.8);
+    }
+/* ---- ----*/
+
+/* CSS for things related to meny */
+    #meny {
+        background-image: url("../img/cover1.jpg");
+        text-align: left;
+    }
+    #meny > .content > h2 {
+        font-size: calc(18px + 2vw);
+        color: #C3061A;
+        margin: 0;
+    }
+    #meny > .content > p {
+        margin: 0;
+    }
+    .menyItem {
+        font-size: x-large;
+    }
+    .ingredients {
+        font-size: large;
+        font-style: italic;
+    }
+    .content {
+        background-color: rgba(20, 20, 20, 0.85);
+        -webkit-box-shadow: 0px 0px 45px 5px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 45px 5px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 45px 5px rgba(0,0,0,0.75);
+        padding: 20px;
+        border: solid rgba(225, 15, 33, 0.80) 3px;
+        position: relative;
+    }
+    .content:before {
+        content: " ";
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        border: solid rgba(225, 15, 33, 0.80) 3px;
+    }
+/* ---- meny End ---- */
+
+#restaurang {
+    background-image: url("../img/cover2.jpg");
+}
+
+
+/* CSS for things related to bilder */
+    #bilder {
+        background-image: url("../img/cover3.jpg");
+    }
+    img {
+        display: inline-block;
+        max-height: 250px;
+    }
+/* ---- bilder End ---- */
+
+
+/* CSS for things related to karta */
+    #karta {
+
+    }
+    #map {
+        min-height: 600px;
+        -webkit-box-shadow: 0px 0px 45px 5px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 45px 5px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 45px 5px rgba(0,0,0,0.75);
+    }
+/* ---- karta End ---- */
+
+
+/* CSS for things related to kontakt*/
+    #kontakt {
+        min-height: 0;
+    }
+    #footerLogo {
+
+    }
+/* ---- kontakt End ---- */
+
+
+
+
+
